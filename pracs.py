@@ -10,6 +10,6 @@ def sum(x, n):
 if __name__== '__main__':
     x = int(os.getenv("x"))
     n = int(os.getenv("n"))
-    print ("Sum is: {0:.4f}".format(sum(x, n)))
+    print ("Sum is: ",sum(x, n))
     
 
