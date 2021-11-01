@@ -1,6 +1,6 @@
 import os
 
-def sum(x, n):
+def sumofseries(x, n):
     total = 1.0
     for i in range (2, n + 1):
         total = total + ((pow(x, i) - i) / (i))
@@ -10,6 +10,6 @@ def sum(x, n):
 if __name__== '__main__':
     x = int(os.getenv("x"))
     n = int(os.getenv("n"))
-    print ("Sum is: ",sum(x, n))
+    print ("Sum is: ",sumofseries(x, n))
     
 
